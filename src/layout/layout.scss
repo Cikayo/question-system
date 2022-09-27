@@ -1,0 +1,23 @@
+.site-layout {
+  height: 100%;
+  display: flex;
+
+  .site-container {
+    padding: 10px 20px;
+    background: #f7f8f9;
+  }
+}
+
+.site-aside {
+  width: 260px;
+  padding: 10px;
+
+  .type-list {
+    .item {
+      padding: 4px;
+      margin-bottom: 5px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+  }
+}
